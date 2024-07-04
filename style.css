@@ -1,0 +1,206 @@
+.header1 {
+    font-size: 10em;
+    text-align: center;
+    color:#f2f2f2;
+    animation: fadeIn 5s;
+}
+
+
+.highlight {
+    animation: colorChange 3s forwards; 
+}
+
+.highlight2 {
+    animation: colorChange2 1s forwards;
+}
+
+.highlight3 {
+    animation: colorChange3 5s forwards;
+}
+
+.donate {
+    
+    text-align: center;
+    font-size: larger;
+   
+}
+
+
+@keyframes colorChange {
+    from {
+        color: inherit; 
+    }
+    to {
+        color: red; 
+    }
+}
+
+
+
+@keyframes colorChange2 {
+    from {
+        color: inherit; 
+    }
+    to {
+        color: #FEDD00; 
+    }
+}
+
+
+@keyframes colorChange3 {
+    from {
+        color: inherit; 
+    }
+    to {
+        color: #009A44; 
+    }
+}
+.navbar {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    padding: 14px 0;
+    justify-content: space-around; 
+    align-items: center; 
+    padding: 14px 0;
+    overflow: hidden;
+}
+.navhome {
+    transition: color .5s ease-in-out, font-size .5s ease-in-out;
+
+}
+.navhome:hover {
+    color: green;
+    transition: .5s ease-in-out;
+    font-size: 1.25em;
+  }
+
+body {
+    background-color: #333;
+    background-size: 100%;
+ 
+}
+
+
+
+.navbar a {
+    float: left;
+    display: flex;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.bio {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:white;
+    font-size: 1em;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto; 
+  letter-spacing: .15em; 
+  animation: typing 3.5s steps(30, end), blink-caret 3s step-end infinite;
+  transition: color .5s ease-in-out, font-size .5s ease-in-out;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 50% }
+  }
+  
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    60% { border-color: orange; }
+  }
+
+  .bio:hover {
+    color: gainsboro;
+    transition: .5s ease-in-out;
+    font-size: 1.25em;
+  }
+
+
+.whatnino {
+    overflow: hidden;
+    margin-top: 50px;
+    margin-left: 50px;
+    animation: typing 3.5s steps(30, end), blink-caret 3s step-end infinite;
+    transition: color .5s ease-in-out, font-size .5s ease-in-out;
+    letter-spacing: .15em; 
+    white-space: nowrap;
+    margin: auto; 
+   color: white;
+}
+
+.whatninotxt {
+    color: black;
+    
+    background: lightyellow;
+    border: 1px solid yellow;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+.bubble1 {
+    
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.omega {
+    font-family: 'raleway';
+}
+
+
+
+
+
+.button-31 {
+  background-color: green;
+  border-radius: 4px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 70;
+  line-height: 1.5;
+  margin: 0;
+  max-width: none;
+  min-height: 44px;
+  min-width: 10px;
+  outline: none;
+  overflow: hidden;
+  padding: 9px 20px 8px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+}
+
+.button-31:hover,
+.button-31:focus {
+  opacity: .75;
+}
+
+
+
+
