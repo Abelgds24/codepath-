@@ -204,3 +204,23 @@ a {
 
 
 
+.donate {
+   margin-left: 700px;
+   margin-top: 350px;
+   padding: 15px 30px;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  transition: 0.5s;
+  background: #1e1e1e;
+  cursor: pointer;
+  color: whitesmoke;
+  box-shadow: 0 0 10px #363636, inset 0 0 10px #363636;
+} 
+
+
+.donate:hover {
+    background-color: black;
+    border-color: greenyellow;
+  }
