@@ -224,3 +224,18 @@ a {
     background-color: black;
     border-color: greenyellow;
   }
+
+h2 {
+    font-family: raleway;
+}
+
+.donateblurb {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    background-color: #009A44;
+    font-family: raleway;
+
+
+}
