@@ -3,36 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>donate</title>
+    <title>Donate</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="icon" type="image/x-icon" href="ethiopiaa.png">
-
-<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/x-icon" href="ethiopiaa.png">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
 </head>
 <body>
-
     <div class="omega">
-    <div class="navbar">
-        <a href="index.html" class="navhome">Home</a>
-        <a href="issue.html" class="navhome">The Issue</a>
-        <a href="donate.html" class="navhome">Donate</a>
-        <a href="other.html" class="navhome">Other Orgs</a>
+        <div class="navbar">
+            <a href="index.html" class="navhome">Home</a>
+            <a href="issue.html" class="navhome">The Issue</a>
+            <a href="donate.html" class="navhome">Donate</a>
+            <button class="toggle-button" onclick="toggleTheme()">Toggle Light/Dark Mode</button>
+
+        </div> 
     </div>
     
-    </div>
+    <h2 class="donh2">Help Today by Donating!</h2>
     
-    <h2>Help today by donating</h2>
     <div class="donateblurb">
-    <img src="ethelnino.jpg"></img>
-    <p>Donating to causes addressing the impacts of El Niño is crucial as this climate phenomenon triggers severe flooding and droughts. These extreme weather events devastate communities, leading to loss of life, displacement, and destruction of homes and infrastructure. By contributing, you support disaster preparedness, emergency response, and long-term recovery efforts. Your donation can help provide essential resources like clean water, food, shelter, and medical care to affected populations. Furthermore, it aids in building resilient communities, reducing future vulnerabilities to climate-related disasters. Join us in making a meaningful difference in the lives of those impacted by El Niño.</p>
+        <img src="ethelnino.jpg" alt="El Niño Impact">
+        <p>Donating to causes addressing the impacts of El Niño is crucial as this climate phenomenon triggers severe flooding and droughts. These extreme weather events devastate communities, leading to loss of life, displacement, and destruction of homes and infrastructure. By contributing, you support disaster preparedness, emergency response, and long-term recovery efforts. Your donation can help provide essential resources like clean water, food, shelter, and medical care to affected populations. Furthermore, it aids in building resilient communities, reducing future vulnerabilities to climate-related disasters. Join us in making a meaningful difference in the lives of those impacted by El Niño.</p>
     </div>
-    <button class="donate">donate</button>
 
+    <div class="call-to-action">
+        <p>Sign the petition to show your support for actions addressing the impacts of El Niño. Your signature can help raise awareness and push for necessary measures to mitigate the effects of this climate phenomenon.</p>
+    </div>
 
+    <div class="petition-form">
+        <h3>Sign the Petition</h3>
+        <form id="petitionForm">
+            <div class="names">
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first-name" required>
+                
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name" required>
+            </div>
+            
+            <button type="submit">Sign Now</button>
+        </form>
+        <ul id="signatureList"></ul>
+    </div>
 
-</div>
+    <a href="https://give.oxfamamerica.org/page/63259/donate/1?transaction.recurrpay=Y&en_txn2=web&en_txn9=topbutton" target="_blank">
+        <button class="donate">Donate!</button>
+    </a> 
 </body>
 </html>
